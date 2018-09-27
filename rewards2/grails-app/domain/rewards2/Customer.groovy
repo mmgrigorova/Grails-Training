@@ -15,6 +15,6 @@ class Customer {
         firstName(nullable:true)
         lastName(nullable:true)
         email(nullable:true, email: true)
-        totalPoints(nullable:true, max: 10)
+        totalPoints(nullable:true, max: 10)\
     }
 }
